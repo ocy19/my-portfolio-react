@@ -12,13 +12,11 @@ const mystyles= {
 class Header extends Component {
   render(){
     return (
-      <div app="header3">
       <header style={mystyles}>
         <h1>{this.props.title}</h1>
         <p> </p>
         <h1> </h1>
       </header>
-      </div>
     );
   }
 };

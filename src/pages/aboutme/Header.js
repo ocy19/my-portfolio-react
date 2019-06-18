@@ -17,7 +17,6 @@ class Header extends Component {
         <h1> </h1>
         <p> </p>
         <span></span>
-
       </header>
 
     );

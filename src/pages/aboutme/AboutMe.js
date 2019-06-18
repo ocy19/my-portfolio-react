@@ -12,7 +12,7 @@ import Education from './Education';
 export default class AboutMe extends Component{
   render(){
     return(
-      <div className="aboutme">
+      <div className="App">
       <Navigation logoTitle="About Octariny" />
       <Header title="Octariny's Portfolio"/>
       <Pp />

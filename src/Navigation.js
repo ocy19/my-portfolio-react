@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Navigation.css';
+import { Link } from 'react-router-dom';
 //import './App.css';
 
 class Navigation extends Component {
@@ -8,10 +9,10 @@ class Navigation extends Component {
       <nav>
         <h2 className="logo">{this.props.logoTitle}</h2>
         <ul>
-        <li><a href={'/'}>Home</a></li>
-        <li><a href={'aboutme'}>About Me</a></li>
-        <li><a href={'portfolio'}>Portfolio</a></li>
-        <li><a href={'contact'}>Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="aboutme">About Me</Link></li>
+        <li><Link to="portfolio">Portfolio</Link></li>
+        <li><Link to="contact">Contact</Link></li>
         </ul>
       </nav>
 

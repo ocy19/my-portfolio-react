@@ -14,10 +14,10 @@ export default class App extends Component {
       <div className="App">
           <BrowserRouter>
           <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/aboutme" exact component={AboutMe} />
-          <Route path="/portfolio" exact component={Portfolio} />
-          <Route path="/contact" exact component={Contact} />
+            <Route path="/" exact component={Home} />
+            <Route path="/aboutme" exact component={AboutMe} />
+            <Route path="/portfolio" exact component={Portfolio} />
+            <Route path="/contact" exact component={Contact} />
           </Switch>
           </BrowserRouter>
       </div>

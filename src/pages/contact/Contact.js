@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Contact.css';
 //import App from './App';
 import Navigation from '../../Navigation';
@@ -6,7 +6,7 @@ import PP from './PP'
 import Kontak from './Kontak'
 import Footer from '../../Footer'
 
-export default class Contact extends React.Component{
+export default class Contact extends Component{
   render(){
     return(
       <div>

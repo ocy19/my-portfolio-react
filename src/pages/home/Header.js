@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Background from '../../img/header1.png'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 const mystyles= {
@@ -15,7 +16,7 @@ class Header extends Component {
       <header style={mystyles}>
         <h1>{this.props.title}</h1>
         <p>A website for Octa's Portfolio</p>
-        <a href="/aboutme">{this.props.button}</a>
+        <Link to="aboutme">{this.props.button}</Link>
       </header>
 
     );

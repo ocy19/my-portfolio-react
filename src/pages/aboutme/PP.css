@@ -1,0 +1,28 @@
+.pp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.pp img {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  width: 1000px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.pp h2{
+  font-size: 48px;
+  color: rgb(46, 22, 7);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.pp h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(46, 22, 7);
+  margin-top: 0;
+}

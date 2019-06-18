@@ -1,0 +1,58 @@
+.kontak {
+  background-color: #C68642;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.kontak h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.kontak h2{
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
+.kontak > .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kontak > .row span {
+  background-color: #fff;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #C68642;
+  font-size: 35px;
+  line-height: 70px;
+}
+
+
+.kontak > .row h4 {
+  margin-bottom: 8px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 24px;
+  color: #fff;
+}
+
+.kontak > .row p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.kontak > .row span ion-icon {
+  contain: none;
+  color: #C68642;
+}

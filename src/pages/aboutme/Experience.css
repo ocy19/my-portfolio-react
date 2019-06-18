@@ -1,0 +1,67 @@
+.experience {
+  background-color: #8D5524;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+
+}
+
+.experience h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.experience h2{
+  font-size: 48px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.experience > .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience > .row span {
+  display: inline-block;
+  color: #8D5524;
+  font-size: 36px;
+}
+
+
+.experience > .row h4 {
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 24px;
+  color: #fff;
+}
+
+.experience > .row p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.experience > .row p ion-icon {
+  color: red;
+}
+
+.experience > .row span ion-icon {
+  contain: none;
+}
+
+.experience > .row span img {
+  padding-top: 10px;
+  width: 330px;
+}
+
+.icons {
+  background-color: #8D5524;
+  width: 350px;
+}
